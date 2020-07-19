@@ -1,0 +1,12 @@
+final method
+syntax
+<access_specifier>final function_name(){}
+e.g
+1) public final void show(){}
+2) public final int sum(){}
+Note:
+1) It prevents from method overiding
+2) final methods are not allowed to overide in subclass
+3) we cant use dynamic polymorphism using final method
+
+

@@ -1,0 +1,5 @@
+steps to create package in java
+step 1) create a user directory.
+step 2) create a java class and save into the user directory.(directory name and package name should be same)
+step 3) compile the java class and generate the .class file.
+step 4) import the package using import keyword and use the package class into the java class.

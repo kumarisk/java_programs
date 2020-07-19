@@ -1,0 +1,22 @@
+package requirement
+javax.swing.*;
+javax.swing.event.*;
+JFrame
+constructors
+1) public JFrame()
+2) public JFrame(String title)
+methods
+1) public void setSize(int w,int h)
+2) public void setLayout(LayoutManager obj)
+3) public void setVisible(boolean val)
+4) public void setTitle(String title)
+5) public void remove(Component comp)
+6) public Container getContentPane()
+7) public void add(Component obj)
+8) public void setDefautCloseOperation(int const)
+
+JFrame constants
+1) JFrame.EXIT_ON_CLOSE
+2) JFrame.DO_NOTHING_CLOSE
+3) JFrame.HIDE_ON_CLOSE
+

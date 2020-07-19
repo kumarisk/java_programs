@@ -1,0 +1,18 @@
+Arithmetic operation on pointers
+Only 2 arithmetic operations are allowed on pointers
+1.Addition
+2.Substraction
+1.Addition
+we can perform arithmetic operation on pointers
+we cannot add two pointers directly because this will create a range error
+we add a small value in a pointer variable
+
+2.Substraction
+we can perform substraction on pointers directly
+we can also substract small value from pointers
+because substraction will decrease the address whic will not go out of range
+
+Note:
+We cannot use * and / on pointers whic creates range problems
+
+

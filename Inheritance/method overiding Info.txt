@@ -1,0 +1,57 @@
+Method Overiding 
+1) It is used to implement dynamic polymorphism in java
+2) Method overiding is only used in Inheritance relationship
+3) followings are the rules of method overiding
+   i) methods prototype should be same
+  ii) we cant change accees specifiers in overiding methods
+4) A sub class can overide the methods of super class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

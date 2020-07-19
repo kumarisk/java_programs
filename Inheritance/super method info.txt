@@ -1,0 +1,8 @@
+super method
+1) it is a method and used to call the constrcutor of super class from the sub class
+2) super method is always used inside the sub class to invoke the parametrised constructor of super class explicitly
+3) we cant use super method inside the super class
+4) super method is always used in Inheritance relationship
+5) super method cant used inside the method of sub class, it is always  used inside the cosntructor of sub class
+6) super method should be first statement inside the constructor of susb class
+

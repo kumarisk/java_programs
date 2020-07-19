@@ -1,0 +1,28 @@
+Package
+=>1) package is a collection of classes and interfaces.
+2) package in java is used to provide heigh level security and abstraction.
+3) package is declare using "package" keyword
+4) A class can have only one packge declaration
+5) we can't use more than one package in single class.
+6) a java class should starts with package section.
+7) syntax of creating package
+
+    syntax
+	package <package_name>;
+e.g
+package number;
+public class Test
+{
+
+
+}
+8) A package is used in class using "import" keyword
+e.g
+syntax
+import <package_name>.<class_name>;//importing single class
+OR
+import <package_name>.*;//importing all classes in package
+e.g
+import number.Test;
+Or
+import number.*;

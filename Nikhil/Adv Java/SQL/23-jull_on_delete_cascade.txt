@@ -1,0 +1,31 @@
+drop table stud_fees cascade constraints
+select * from student
+select * from stud_fees
+create table student(sname varchar2(10),rollno number(3) primary key,course varchar2(10))
+create table stud_fees(ID number(3) references student(rollno) on delete cascade,amount number(4),fdate date)
+insert into student values('AAA',1,'C')
+insert into student values('BBB',2,'C++')
+insert into student values('CCC',3,'Java')
+
+insert into stud_fees values(1,2500,'25-jan-2012')
+insert into stud_fees values(2,2500,'12-mar-2012')
+insert into stud_fees values(2,1000,'30-jun-2012')
+insert into stud_fees values(2,3000,'25-jul-2012')
+insert into stud_fees values(3,4000,'17-nov-2012')
+delete from student where rollno=2
+
+drop table stud_fees cascade constraints
+select * from student
+select * from stud_fees
+create table student(sname varchar2(10),rollno number(3) primary key,course varchar2(10))
+create table stud_fees(ID number(3) references student(rollno) on delete set null,amount number(4),fdate date)
+insert into student values('AAA',1,'C')
+insert into student values('BBB',2,'C++')
+insert into student values('CCC',3,'Java')
+
+insert into stud_fees values(1,2500,'25-jan-2012')
+insert into stud_fees values(2,2500,'12-mar-2012')
+insert into stud_fees values(2,1000,'30-jun-2012')
+insert into stud_fees values(2,3000,'25-jul-2012')
+insert into stud_fees values(3,4000,'17-nov-2012')
+delete from student where rollno=2

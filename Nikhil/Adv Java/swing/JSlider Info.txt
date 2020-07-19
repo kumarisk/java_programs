@@ -1,0 +1,31 @@
+JSlider
+constructors
+1) public JSlider()
+2) public JSlider(int orientation)
+3) public JSlider(int min,int max)
+4) public JSlider(int min,int max,int val)
+5) public JSlider(int orientation,int min,int max,int val)
+methods
+1) public void setValue(int val)
+2) public int getValue()
+3) public void setOrientation(int orientation)
+4) public int getOrientation()
+5) public void setFont(Font f)
+6) public Font getFont()
+7) public void setMinimum(int min)
+8) public int getMinimum()
+9) public void setMaximum(int max)
+10) public int getMaximum()
+11) public void setExtent(int val)
+12) public int getExtent()
+13) public void setPaintTicks(boolean val)
+14) public viod setMajorTickSpacing(int val)
+15) public void setMinorTickSpacing(int val)
+16) public void setPaintLabels(boolean val)
+17) public boolean getPaintLabels()
+orientation constants
+1) SwingConstants.HORIZONTAL=0
+2) SwingConstants.VERTICAL=1
+Listener=>ChangeListener
+class=>ChangeEvent
+method=>public void stateChanged(ChangeEvent)

@@ -1,0 +1,13 @@
+JTree
+1) public JTree()
+2) public JTree(TreeNode node)
+3) public JTree(Object obj[])
+4) public JTree(HashTable table)
+methods
+1) public TreePath getSelectionPath()
+2) public TreePath[] getSelectionPaths()
+3) public int getSelectionCount()
+4) public void add(TreNode node)
+5) public boolean isRootVisible()
+6) public void setRootVisible(boolean val)
+

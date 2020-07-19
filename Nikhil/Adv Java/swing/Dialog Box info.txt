@@ -1,0 +1,23 @@
+Dialog Box
+1) Message Dialog Box
+  1) JOptionPane.showMessageDialog(Component obj,Object message,String title,int constant)
+  2) JOptionPane.showMessageDialog(Component obj,Object meessage)
+2) Confirm Dialog Box
+  1) JOptionPane.showConfirmDialog(Component obj,Object message,String title,int constant)
+  2)  JOptionPane.showConfirmDialog(Component obj,Object meessage)
+  JOptionPane constants
+  1) JOptionPane.WARNING_MESSAGE
+  2) JOptionPane.QUESTION_MESSAGE 
+  3) JOptionPane.PLAIN_MESSAGE
+  4) JOptionPane.INFORMATION_MESSAGE
+  5) JOptionPane.ERROR_MESSAGE
+confirmation Constants
+JOptionPane.DEFAULT_OPTION
+JOptionPane.YES_NO_OPTION
+JOptionPane.YES_NO_CANCEL_OPTION
+JOptionPane.OK_CANCEL_OPTION
+JOptionPane.YES_OPTION
+JOptionPane.NO_OPTION
+JOptionPane.CANCEL_OPTION
+JOptionPane.OK_OPTION
+JOptionPane.CLOSED_OPTION

@@ -1,0 +1,14 @@
+method of Math class
+1) public static double sqrt(double no)
+2) public static double cbrt(double no)
+3) public static double IEEEremainder(double a,double b)
+4) public static double ceil(double no)
+5) public static double floor(double no)
+6) public static double pow(double n1,double n2)
+7) public static int round(float no)
+8) public static long round(double no)
+9) public static double random()
+10) public static int abs(int)
+11) public static int max(int,a,int b)
+12) public static int min(int a,int b)
+

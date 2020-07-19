@@ -1,0 +1,12 @@
+Scrollpane
+constructors
+1) public JScrollPane()
+2) public JScrollPane(Component val,int vsb,int hsb)
+3) public JScrollPane(int vsb,int hsb)
+methods
+1) public void setLayout(LayoutManager mng)
+2) public JScrollBar createVerticalScrollBar()
+3) public JScrollBar createHorizontalScrollBar()
+4) public void setColumnHeader(ViewPort obj)
+5) public void setRowHeader(ViewPort obj)
+6) public void add(Component obj)

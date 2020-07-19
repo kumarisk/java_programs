@@ -1,0 +1,13 @@
+methods of Scrollable ResultSet Object
+1) public boolean next()
+2) public boolean previous()
+3) public boolean first()
+4) public boolean last()
+5) public boolean isFirst()
+6) public boolean isLast()
+7) public void beforeFirst()
+8) public void afterLast()
+9) public int getRow()
+10) public boolean absolute(int pointer)
+11) public boolean relative(int pointer)
+

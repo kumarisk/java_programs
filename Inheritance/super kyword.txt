@@ -1,0 +1,8 @@
+super method and super keyword
+super keyword=>
+1) It holds the reference of super class
+2) super is used to differentiate between members of sub class and super class
+3) super keyword is always used in Inheritance relationship
+4) super keyword cant use in sub class 
+5) As it holds the reference of super class,we can access members of super class using super keyword
+

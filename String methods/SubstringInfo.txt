@@ -1,0 +1,9 @@
+Substring
+syntax
+public String substring(int startIndex,int numchars)
+e.g
+String s="Solapur University";
+  String s1=s.substring(0,4);
+ System.out.println("\nS1="+s1);//Sola
+  String s2=s.sustring(8);
+System.out.println("\nS2="+s2);

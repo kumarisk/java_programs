@@ -1,0 +1,18 @@
+static and non static methods of Wrapper classes
+String to primitive data type converstion
+I) static methods
+Byte.parseByte(String val)
+Short.parseShort(String val)
+Integer.parseInt(String val)
+Long.parseLong(String val)
+Float.parseFloat(String val)
+Double.parseDouble(String val)
+Boolean.parseBoolean(String val)
+
+II) Non static methods  (Object to primitive data type )
+public byte byteValue()
+public short shortValue()
+public int intValue()
+public long longValue()
+public float floatValue()
+public double doubleValue()

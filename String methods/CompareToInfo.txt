@@ -1,0 +1,32 @@
+1) equals
+syntax
+public boolean equals(String str)
+e.g
+String s1="abc";
+String s2="ABC";
+if(s1.equals(s2))
+   System.out.println("\nBoth String are Equal");
+else
+   System.out.println("\nBoth String are not Equal");
+2) equalsIgnoreCase
+syntax
+public boolean equalsIgnoreCase(String s)
+e.g
+String s1="abc";
+String s2="ABC";
+if(s1.equlasIgnorCase(s2))
+   System.out.println("both are equals");
+else
+   System.out.println("both are not equals");
+3) compareTo(String)/compareToIgnoreCase(String)
+syntax
+public int compareTo(String s)
+String s1="ABC";       
+String s2="abc";	
+ int r=s1.compareTo(s2);
+if(r>0)
+System.out.println("\nS1 is Greater");
+else if(r<0)
+System.out.println("\nS2  is Greater");
+else
+System.out.println("\nS1 and S2 are equal");

@@ -1,0 +1,32 @@
+static import
+syntax
+import static <package_name>.<className>.<method_name>;
+or
+import static <package_name>.<className>.*;
+
+class Mathematics
+{
+   public static int sum(int a,int b)
+   {
+      return a+b;
+   }
+   public static float result(float a,float b)
+   {
+       if(a>b)
+	   return a;
+	   else
+	   return b;
+   }
+}
+import static maths.Mathematics.sum;
+import static maths.Mathematics.result;
+or
+import static maths.Mathematics.*;
+class MathEx
+{
+   public static void main(String args[])
+   {
+       int s=sum(10,20);
+	   float r=result(34.5f,65.8f);
+   }
+}

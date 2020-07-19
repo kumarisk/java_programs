@@ -1,0 +1,20 @@
+Enhanced for loop
+syntax
+    for(<data_type> <var>:<array_var>)
+    {
+        statements   
+    }
+e.g
+int a[]={3,5,7,8,34},i;
+   for(i=0;i<a.length;i++)
+    {
+        System.out.println(" "+a[i]);
+    }
+
+using enhanced for loop
+    for(int x:a)
+     {
+         System.out.print(" "+x);
+     }
+
+   

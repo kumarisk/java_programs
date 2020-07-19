@@ -1,0 +1,10 @@
+toUpperCase and toLowerCase
+syntax
+1) public String toUpperCase();
+2) public String toLowerCase();
+e.g
+  String s1="SOLAPUR";
+  String s2="mumbai";
+  String s3=s1.toLowerCase();
+   String s4=s2.toUpperCase();	
+   

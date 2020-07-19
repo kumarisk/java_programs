@@ -1,0 +1,12 @@
+syntax
+Scanner sc=new Scanner(System.in);
+methods
+1) public byte nextByte()
+2) public short nextShort()
+3) public int nextInt()
+4) public long nextLong()
+5) public float nextFloat()
+6) public double nextDouble()
+7) public boolean netBoolean()\
+8) public String next()
+9) public String nextLine()

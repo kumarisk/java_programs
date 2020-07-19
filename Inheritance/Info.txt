@@ -1,0 +1,22 @@
+Inheritance
+1) creating a new class from an existing class is  called as inheritance.
+2) Java implements inheritance using extends keyword.
+3) A class which extends another class is called sub class or child class or derived class.
+4) A class which extended to another class is called base class parent class or super class
+5) In sub class we can acces all the public,protected and default members of super class.
+6) we can't access private members of super class in sub class.
+7) syntax of creating sub class or derived class
+    <sub-classs> extends <super-class>
+     {
+       
+
+     }
+e.g
+  class Student extends Person
+   {
+
+    }
+where,
+  Student is a sub class
+  Person is a super class
+ 

@@ -1,0 +1,23 @@
+Abtract class
+=>1) we declare abstract keyword before class defination,then such class is known as Abstract class.
+2) It is a partially implemented and partially unimplemented structure.
+3) As it is partially implemented and partially unimplemented structure,Abstract class contains implemented methods as well as unimplemented methods.
+4) we can't create object of an abstract class,bcz it is a partially unimplemented structure.
+5)Abstract class contains abstract methods,if we use abstract keyword before method declaration then such method is known as abstract method,it does not have method defination.
+6) We can assign reference to an abstract class object.
+7) It is used to implements dynamic polymorphism
+8) syntax of creating abstract class is as follows
+    public abstract class <class_name>
+	{
+	  abstract methods
+	  non-abstract methods
+	}
+e.g
+ public abstract class Person
+ { 
+      public abstract void info();
+	  public void display()
+	 {
+	  System.out.println("\nFrom display method");
+	 }
+ } 

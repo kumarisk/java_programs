@@ -1,0 +1,16 @@
+static identifier in java
+1) static variable
+2) static method
+3) static block
+static variable
+1) if we declare a static keyword before a variable declaration,then such a variable is known as static variable.
+2) A static variable cant be used in a non static context
+3) we can use static variables only in a static context
+4) syntax
+     static <data_type>variable;
+    e.g
+     static int a;
+     static String name;
+     static float sal;
+5) we can access static variables by using its class name instead object.
+6) static variables are not objects dependent. 

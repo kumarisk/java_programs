@@ -1,0 +1,22 @@
+Five keywords to Handle Exceptions in Java
+=>
+i)try
+ii)catch
+iii)throw
+iv)throws
+v)finally
+All Exception classes are present in "java.lang" Package
+
+Inbuilt Exception classes
+1) Exception
+2) ArithmeticException
+3) ArrayIndexOutOfBoundsException
+4) StringIndexOutOfBoundsException
+5) NullPointerException
+6) NumberFormatException
+7) SQLException
+8) InterruptedException
+9) IOExepetion
+10) NegativeArraySizeException
+11) ClassNotFoundException
+12) IllegalArgumentException

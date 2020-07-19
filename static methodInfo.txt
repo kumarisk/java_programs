@@ -1,0 +1,5 @@
+static method
+1) if we use static keyword before method defination then such method is known as static method
+2) static method can access only static variables of a class
+3) we can access static method by using its class name
+4) we cant use this operator in static method

@@ -1,0 +1,13 @@
+interface Number
+{
+   public void show();
+   public void disp();
+}
+A class can implements interface using implements keyword
+syntax
+class Number_One implements Number
+{
+    public void show(){}
+	public void disp(){}
+
+}

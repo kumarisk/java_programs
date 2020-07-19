@@ -1,0 +1,11 @@
+/*implementing Multiple Inheritance using Interface*/
+syntax
+class <sub_class> extends <super_class> implements <interface_one>,<interface_two>,....<interface_N>
+{
+//Statements
+
+}
+class Result extends Person implements Student
+{
+
+}

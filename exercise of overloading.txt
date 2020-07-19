@@ -1,0 +1,3 @@
+1) Write a function to overload square function to find the square of given number
+2) Write a fucntion to overload cuberoot function to find cuberoot of given number
+3) write a function to overload info function to display information of 3 students

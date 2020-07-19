@@ -1,0 +1,21 @@
+Inteface
+syntax
+interface <Interface_name>
+{
+   //static / final variables
+    abstract methods
+	
+}
+Note:
+1) Interface in java is used using keyword interface
+2) It is pure abstract class
+3) It contains only abstract methods
+4) It does not contains non-abstract methods
+5) all variables of interface are final and static by nature
+6) we no need to use static or final keyword for variables of interface
+7) methods are by nature abstract,since we need not use abstract keyword before method declarations
+8) default access specifier of interface is of public 
+9) A class implements interface using "implements" keyword
+10) A class which implements an inetrface is known as Implementing class and must overide all abstract methods of an interface.
+11) we cant create object of interface
+12) Inteface is fully unimplemented structure

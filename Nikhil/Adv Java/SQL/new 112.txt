@@ -1,0 +1,19 @@
+select deptno,sum(sal) from emp group by deptno
+
+select job,sum(sal) from emp group by job
+
+select course,sum(fees) from student group by course
+
+select deptno from emp group by deptno
+select job from emp group by job
+select mgr from emp group by mgr
+select to_char(hiredate,'yyyy') yeargroup from emp group by to_char(hiredate,'yyyy')
+select to_char(hiredate,'month') yeargroup from emp group by to_char(hiredate,'month')
+select to_char(hiredate,'month')MonthGroup from emp where to_char(hiredate,'month')<> 'september' group by to_char(hiredate,'month')
+select deptno,avg(sal) from emp group by deptno
+select deptno,avg(sal) from emp group by deptno order by avg(sal) desc
+select deptno,min(sal),max(sal)from emp group by deptno 
+select deptno,job,sum(sal) from emp group by deptno
+select * from emp
+select deptno,min(sal),max(sal) from emp where job='CLERK' group by deptno
+select deptno,sum(sal),avg(sal) from emp where job='CLERK' group by deptno

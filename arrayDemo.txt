@@ -1,0 +1,16 @@
+Array
+1) creation of Array using Initialisation
+2) creation of Array using new operator
+
+1) creation of array using initialisation
+      syntax   
+      int a[]={12,3,6,8,10};
+2) creation of array using new operator
+     syntax
+     int a[]=new int[5];
+     or
+     int a[];
+     a=new int[10];
+
+    
+

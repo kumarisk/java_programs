@@ -1,0 +1,10 @@
+try-catch block
+syntax
+try
+{
+  statements;
+}
+catch(Exception_Class obj)
+{
+
+}

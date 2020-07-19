@@ -1,0 +1,18 @@
+Wrapper classes
+=>in some situations, we need to convert primitive data types into its equivalent objects,Wrapper classes is used to stores primitive data into its equivalent objects.
+=>Wrapper classes hav some static and non static methods for storing the primitive data types into objects.
+int a=10;//data type of integer variable
+Integer a1=10; //object of Integer type
+
+List of Wrapper classes
+Data types		Wrapper classes
+byte			Byte
+short			Short
+int				Integer
+long			Long
+float			Float
+double			Double
+char			Character
+boolean			Boolean
+
+

@@ -1,0 +1,15 @@
+JButton
+constructors
+1) public JButton()
+2) public JButton(String)
+3) public JButton(ImageIcon icon)
+4) public JButton(String str,ImageIcon icon)
+methods
+1) public void setLabel(String lbl)
+2) public String getLabel()
+3) public void setFont(Font f)
+4) public Font getFont()
+5) public void setBackground(Color c)
+6) public vod setForeground(Color c)
+7) public void setToolTipText(String msg)
+8) public void setMnemonic(char c)

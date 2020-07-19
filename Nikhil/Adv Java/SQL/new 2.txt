@@ -1,0 +1,14 @@
+select distinct job from emp
+
+select distinct deptno from emp
+
+select distinct sal from emp 
+
+select distinct comm from emp
+
+select distinct mgr from emp
+
+select * from emp
+
+select count(job) from emp
+select count(distinct job) from emp

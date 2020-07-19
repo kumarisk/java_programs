@@ -1,0 +1,10 @@
+1) To find sum of row elements
+2) To find sum of Column elements
+3) to find sum of even numbers
+4) to find max of array elements
+5) To find max of each row of array elements
+6) to find array addition of A and B
+7)  to find array multiplication of A and B
+8)  to display ascending array elements
+9) to find the factorial of each element
+10) to find the prime numbers of array elements

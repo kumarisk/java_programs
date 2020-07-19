@@ -1,0 +1,26 @@
+final class
+syntax
+final class <class_Name>
+{
+}
+e.g
+1) final class Person
+   { 
+   
+   }
+2) final class Test{}
+Note:
+1) we cant inherit final class
+2) final class never becomes a super class but it might be a sub class of other class
+3) It prevents from Inheritance
+
+String is final class
+class Test
+{
+   String s=new String("AAA");//allowed
+}
+class Test extends String
+{
+   //not allowed
+}
+

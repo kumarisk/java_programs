@@ -1,0 +1,39 @@
+create table student1(rollno number(4),name varchar2(10),course varchar2(10))
+
+alter table student add email varchar2(25) 
+
+insert into student values(1,'AAA','C')
+insert into student values(2,'BBB','C++')
+insert into student values(3,'CCC','JAVA')
+insert into student values(4,'DDD','Oracle')
+
+alter table student add constraint PK_stud primary key(rollno);
+alter table student add constraint PK_Course check(course in ('C','C++','JAVA'))
+alter table student add constraint uniqu_email unique(email)
+update student set email='aaa@gmail.com' where rollno=1
+update student set email='bbb@gmail.com' where rollno=2
+update student set email='ccc@gmail.com' where rollno=3
+
+-----if inserted same email table will not accept it--------
+
+select * from student
+
+alter table student modify name varchar2(10) not null
+alter table student1 modify course varchar2(10) default 'C'
+
+insert into student1(rollno,name) values(6,'FFF')
+
+select deptno from emp where ename='SMITH';
+
+select * from emp where deptno=20
+
+select * from emp where deptno=(select deptno from emp where ename='SMITH')
+
+select * from emp where job=(select job from emp where ename='SMITH')
+
+select * from emp where sal=(select max(sal) from emp)
+select * from emp where sal=(select min(sal) from emp)
+select * from emp where sal>(select avg(sal) from emp)
+select * from emp where sal>(select min(sal) from emp)
+select * from emp where sal<(select min(sal) from emp)
+

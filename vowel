@@ -1,0 +1,10 @@
+class vowel
+{
+public static void main(String args[])
+{
+if(args[0]=='a'||args[0]=='e'||args[0]=='i'||args[0]=='o'||args[0]=='u')
+System.out.println("vowel");
+else  
+System.out.println("consonant");
+}
+}

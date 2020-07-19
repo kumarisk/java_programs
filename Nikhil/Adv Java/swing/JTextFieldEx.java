@@ -1,0 +1,20 @@
+JRadioButton
+constructors
+1) public JRadioButton()
+2) public JRadioButton(String txt)
+3) public JRadioButton(Icon icon)
+4) public JRadioButton(String txt,boolean state)
+5) public JRadioButton(String txt,Icon icon)
+6) public JRadioButton(String txt,Icon icon,boolean state)
+7) public JRadioButton(Icon icon,boolean state)
+methods
+1) public void setLabel(String text)
+2) public String getLabel()
+3) public void setIcon(Icon icon)
+4) public Icon getIcon()
+5) public void setForeground(Color color)
+6) public void setBackground(Color color)
+7) public void setState(boolean state)
+8) public boolean getState()
+9) public void setToolTipText(String msg)
+10) public void setMnemonic(char c)

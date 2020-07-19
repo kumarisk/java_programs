@@ -1,0 +1,15 @@
+select sysdate from dual
+select add_months('09-may-1994',12) from dual
+select add_months(sysdate,12) from dual
+select add_months(sysdate,-12) from dual
+select ename,hiredate,add_months(hiredate,6)"increment"from emp
+select last_day(sysdate)from dual
+select last_day('06-feb-2016')from dual
+select next_day(sysdate,'Monday')from dual
+select sysdate,sysdate+10,sysdate-10 from dual
+select *from emp
+select ename,sysdate-hiredate "experience" from emp
+select ename,(sysdate-hiredate)/365 "experience" from emp
+select ename,hiredate,months_between(sysdate,hiredate)"Experience"from emp
+select  ename,hiredate,months_between(sysdate,hiredate)/12"Experience"from emp
+

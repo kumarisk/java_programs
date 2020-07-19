@@ -1,0 +1,8 @@
+Concatenation
+syntax
+1) public String concat(String s)
+e.g
+String s1="Hello";
+String s2="Solapur";
+String s3=s1.concat(s2);
+ String s4=s1+s2;

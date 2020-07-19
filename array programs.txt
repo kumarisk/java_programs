@@ -1,0 +1,12 @@
+1) To find sum of array elements
+2) to count even and odd elements from array
+3) to find min and max number from array
+4) display aray elements in ascending order
+5) to find prime numbers from array
+6) to find factorial of each array element
+7) to find second min number from array
+8) to find second max number from array
+9) to copy array A into array B
+10) to copy reverse elements from array A to array b
+11) to find sqaure of each element of array
+12) to display perfect numbers from  array

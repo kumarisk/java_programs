@@ -1,0 +1,36 @@
+ccreate reate table student_data(name varchar2(10),roll number(3) primary key,fees number(3),course varchar2(10),college varchar2(10))
+insert into student_data values('rahul',001,200,'java','BMIT')
+insert into student_data values('Nikhil',002,200,'java','BMIT')
+insert into student_data values('Ajay',001,200,'java','BMIT')
+create table book(bname varchar2(10),bid number(3) primary key,bprice number(3),bauthor varchar2(10))
+insert into book values('Electrics',001,200,'Sedha')
+create table custmer(ename varchar2(10),cust_id number(3) primary key,gender varchar2(5),contact varchar2(10) unique,email varchar2(10) unique)
+insert into custmer  values('ayay',001,'male','123456789','j1@gmail.c')
+insert into custmer values('rahul',002,'male','747299129','null')
+select * from custmer
+insert into custmer values('nikhil',003,'male','8888048896',null)
+insert into custmer values('rahul',004,'male','747299129',null)
+create table employee(ename varchar2(30) NOT NULL,eid number(5) primary key,job varchar2(15) NOT NULL,sal number(5) NOT NULL,detno number)
+insert into employee values('rahul',1,'Clerk',1000,10)
+insert into employee values(null,1,'Clerk',1000,10)
+
+CREATE TABLE EMP1
+       (EMPNO NUMBER(4) PRIMARY KEY,
+        ENAME VARCHAR2(10) NOT NULL,
+        sex char(1) CHECK(SEX IN('M','F')),
+        SAL NUMBER(12, 2),
+        HIREDATE DATE DEFAULT SYSDATE,
+        mail_id varchar2(30) UNIQUE
+)
+insert into emp1 (empno,ename,sex,sal,mail_id)values( 006,'nikhil','T',12000,'nikhil1@gmail.com')
+select * from emp1
+
+CREATE TABLE EMP2
+       (EMPNO NUMBER(4) PRIMARY KEY,
+        ENAME VARCHAR2(10) NOT NULL,
+        sex char(1) CHECK(SEX IN('M','F')),
+        SAL NUMBER(12, 2) CHECK (SAL BETWEEN 1000 AND 10000),
+        HIREDATE DATE DEFAULT SYSDATE,
+        mail_id varchar2(30) UNIQUE
+)
+insert into emp2 (empno,ename,sex,sal,mail_id)values( 006,'nikhil','M',10000,'nikhil1@gmail.com')

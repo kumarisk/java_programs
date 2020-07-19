@@ -1,0 +1,13 @@
+select count(*) from emp
+select sum(sal) from emp
+select count(*),sum(sal) from emp where job='MANAGER';
+select count(*),sum(sal),avg(sal),min(sal),max(sal) from emp where deptno=30
+select min(hiredate),max(hiredate) from emp
+select stddev(sal),variance(sal) from emp
+select count(comm),sum(comm),avg(comm)from emp
+select *from emp
+select count(*) from emp
+select count(comm) from emp
+select sum(sal)from emp where deptno=20
+select sum(sal)from emp where job='CLERK'
+select sum(comm)from emp where deptno=30

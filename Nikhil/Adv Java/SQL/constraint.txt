@@ -1,0 +1,12 @@
+create table stude(sname varchar2(10),course_ID number(2) constraint pk_course_ID primary key,duration varchar(6),fees number(5))
+insert into stude values('AAA',1,'3mth',4000)
+
+select * from stude
+
+CREATE TABLE EMP4
+       (EMPNO NUMBER(4) PRIMARY KEY,
+        ENAME VARCHAR2(10) NOT NULL,
+        sex char(1) CHECK(SEX IN('M','F')),
+        SAL NUMBER(12, 2) constraint pk_INCORRECT CHECK (SAL BETWEEN 1000 AND 10000) ,
+        HIREDATE DATE DEFAULT SYSDATE,mail_id varchar2(30) UNIQUE)
+insert into emp4(empno,ename,sex,sal,mail_id)values( 008,'nikhil','M',100,'nikhil2@gmail.com')

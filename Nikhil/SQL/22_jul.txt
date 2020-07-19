@@ -1,0 +1,48 @@
+create table student1(sname varchar2(10),rollno number(3) primary key,course varchar2(10))
+insert into student1 values('AAA',1,'C')
+insert into student1 values('BBB',2,'C++')
+insert into student1 values('CCC',3,'Java')
+select * from student1
+
+create table stud1_fees(ID number(3) references student1(rollno),amount number(4),fdate date default sysdate)
+insert into stud1_fees values(1,2500,'25-jan-2012')
+insert into stud1_fees values(2,2500,'12-mar-2012')
+insert into stud1_fees values(2,1000,'30-jun-2012')
+insert into stud1_fees values(2,3000,'25-jul-2012')
+insert into stud1_fees values(3,4000,'17-nov-2012')
+select * from stud1_fees
+select sum(amount) from stud1_fees where id=2 
+select sum(amount) from stud1_fees 
+select sum(amount) from stud1_fees group by id
+
+
+
+create table student1(sname varchar2(10),rollno number(3) primary key,course varchar2(10))
+insert into student1 values('AAA',1,'C')
+insert into student1 values('BBB',2,'C++')
+insert into student1 values('CCC',3,'Java')
+
+select * from student1
+
+create table stud1_fees(ID number(3) references student1(rollno),amount number(4),fdate date default sysdate)
+
+insert into stud1_fees values(1,2500,'25-jan-2012')
+insert into stud1_fees values(2,2500,'12-mar-2012')
+insert into stud1_fees values(2,1000,'30-jun-2012')
+insert into stud1_fees values(2,3000,'25-jul-2012')
+insert into stud1_fees values(3,4000,'17-nov-2012')
+select * from stud1_fees
+select sum(amount) from stud1_fees where id=2 
+select sum(amount) from stud1_fees 
+select sum(amount) from stud1_fees group by id
+
+create table promotions(pro_Id number(3),proname varchar2(10),proCategory varchar(10),proCost number(10,2),proBegDate date,proEndDate date, constraint PromoCons Unique(pro_Id))
+insert into promotions values(2,'BBB','A_manager',10000,'2-jul-2016','30-jan-2017')
+insert into promotions values(3,'CCC','Ass_mgr',8000,'30-jun-2016','28-feb-2017')
+insert into promotions values(4,'CCC','supervisor',3000,'1-aug-2016','30-sep-2017')
+select * from promotions
+create table locations(LocationId number(4), staddress varchar2(40) not null, postalcode varchar2(6) constraint pcnn not null, city varchar2(30) constraint citynn not null, constraint locidpk primary key(LocationId))
+insert into locations values(1004,'raviwar peth solapur',413005,'solapur')
+insert into locations values(1005,'Pachh peth solapur',413003,'solapur')
+insert into locations values(1007,'Budhwar peth solapur','null','solapur')
+select * from locations

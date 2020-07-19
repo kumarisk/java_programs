@@ -1,0 +1,20 @@
+JProgressBar
+constructors
+1) public JProgressBar()
+2) public JProgressBar(int orientation)
+3) public JProgressBar(int min,int max)
+4) public JProgressBar(int orientation,int min,int max)
+methods
+1) public void setOrientation(int val)
+2) public int getOrientation()
+3) public void setStringPainted(boolean val)
+4) public String getString()
+5) public boolean isStringPainted()
+6) public void setValue(int val)
+7) public int getValue()
+8) public void setMinimum(int min)
+9) public int getMinimum()
+10) public void setMaximum(int max)
+11) public int getMaximum()
+12) public void setString(String val)
+ 

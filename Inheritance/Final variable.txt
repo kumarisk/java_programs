@@ -1,0 +1,21 @@
+Final Modifier
+1) final variable
+2) final method
+3) final class
+e.g
+final variable
+syntax
+<access_specifier> final <data_type><var_name>=val;
+e.g
+1) public final int A=10;
+2) public final float PI=3.14f;
+3) public final String NAME="WIT";
+Note: 
+1) final variables are constants veriables
+2) we dont change the value of final variables
+
+
+
+
+
+

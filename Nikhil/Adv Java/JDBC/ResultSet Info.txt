@@ -1,0 +1,23 @@
+Types of ResultSet
+1) Non Scrollable ResultSet Object
+=>the  non Scrollable object that allows to read records sequentially then such ResultSet object is called Non Scrollable.
+2) Scrollable ResultSet Object
+=> the Scrollable object that allows to read records bi-directionally or randomely then such ResultSet object is called Scrollable.
+code to generate Non Scrollable ResultSet Object
+Statement st=con.createStatement();
+ResultSet rs=st.executeQuery("select * from student");
+
+code to generate Scrollable ResultSet Object
+Statement st=con.createStatement(int mode,int type);
+ResultSet rs=st.executeQuery("select * from student");
+where
+mode:
+1) ResultSet.TYPE_SCROLL_SENSITIVE
+2) ResultSet.TYPE_SCROLL_INSENSITIVE
+type:
+1) ResultSet.CONCUR_UPDATABLE
+2) ResultSet.CONCUR_READ_ONLY
+
+
+
+
